@@ -12,7 +12,7 @@ body {
 }
 section {
   padding: 0;
-  margin: 5% 0;
+  margin: 5% 0% 10% 0%;
   overflow: hidden;
   position: relative;
 }
