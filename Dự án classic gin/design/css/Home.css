@@ -4,7 +4,7 @@ body {
       rgba(0, 0, 0, 0.059),
       rgba(0, 0, 0, 0.078)
     ),
-    url("../../../design_layout/layout.jpg");
+    url("../design_layout/layout.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -251,7 +251,7 @@ body {
   height: 100vh;
   overflow: hidden;
   z-index: 4;
-  background-image: url("../../../design_layout/layout.jpg");
+  background-image: url("../design_layout/layout.jpg");
   background-size: cover;
   background-attachment: scroll;
   background-repeat: no-repeat;
@@ -349,8 +349,8 @@ body {
   position: relative;
   overflow: hidden;
   height: 150vh;
-  background-image: url("../../design_layout/deisgn_img1.jpg"),
-    url("../../design_layout/layout_design1.jpg");
+  background-image: url("../design_layout/deisgn_img1.jpg"),
+    url("../design_layout/layout_design1.jpg");
   background-repeat: no-repeat;
   background-size: 80vh 110vh, 150vh 90vh;
   background-position: 0% 0%, 100% 70%;
@@ -406,7 +406,7 @@ body {
       rgba(217, 218, 208, 0.538),
       rgba(255, 255, 255, 0.503)
     ),
-    url("../../design_layout/card_layout/card_layout.jpg");
+    url("../design_layout/card_layout/card_layout.jpg");
   background-repeat: no-repeat;
 }
 .div_design_2 .card_2_layout {
@@ -415,7 +415,7 @@ body {
       rgba(217, 218, 208, 0.819),
       rgba(255, 255, 255, 0.503)
     ),
-    url("../../design_layout/card_layout/card_layout4.jpg");
+    url("../design_layout/card_layout/card_layout4.jpg");
   background-repeat: no-repeat;
 }
 .div_design_2 .card_3_layout {
@@ -424,7 +424,7 @@ body {
       rgba(217, 218, 208, 0.658),
       rgba(255, 255, 255, 0.503)
     ),
-    url("../../design_layout/card_layout/card_layout2.jpg");
+    url("../design_layout/card_layout/card_layout2.jpg");
   background-repeat: no-repeat;
 }
 .div_design_2 .card_4_layout {
@@ -433,7 +433,7 @@ body {
       rgba(217, 218, 208, 0.658),
       rgba(255, 255, 255, 0.503)
     ),
-    url("../../design_layout/card_layout/card_layout3.jpg");
+    url("../design_layout/card_layout/card_layout3.jpg");
   background-repeat: no-repeat;
 }
 .div_design_2 .card-header {
@@ -472,15 +472,15 @@ body {
 .div_design_2_1 {
   width: 100%;
   height: 100%;
-  background-image: url("../../design_layout/content2_1img.jpg"),
-    url("../../design_layout/content2_2img.jpg"),
-    url("../../design_layout/layout_png_3.png");
+  background-image: url("../design_layout/content2_1img.jpg"),
+    url("../design_layout/content2_2img.jpg"),
+    url("../design_layout/layout_png_3.png");
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: 45% 65vw, 40% 60vw, 35% 30%;
   background-position: 15vw 10%, 45vw 70%, 0% 110%;
   background-attachment: scroll, scroll, scroll;
-  /* background-image: url("../../design_layout/deisgn_img1.jpg"),
-        url("../../design_layout/layout_design1.jpg");
+  /* background-image: url("../design_layout/deisgn_img1.jpg"),
+        url("../design_layout/layout_design1.jpg");
       background-repeat: no-repeat;
       background-size: 80vh 110vh, 150vh 90vh;
       background-position: 0% 0%, 100% 70%;
@@ -648,8 +648,8 @@ span {
 }
 /*  */
 .div_info_me2 {
-  background-image: url("../../design_layout/design_img3-removebg-preview.png"),
-    url("../../design_layout/design_img4-removebg-preview.png");
+  background-image: url("../design_layout/design_img3-removebg-preview.png"),
+    url("../design_layout/design_img4-removebg-preview.png");
   background-repeat: no-repeat, no-repeat;
   background-size: 60% 60%, 50% 50%;
   background-position: 0% 0%, 100% 100%;
@@ -711,7 +711,7 @@ span {
   background-color: rgba(210, 207, 207, 0.188);
 }
 .div_info_me3 .info_me3 {
-  background-image: url("../../design_layout/layout_png_2.png");
+  background-image: url("../design_layout/layout_png_2.png");
   background-repeat: no-repeat;
   background-position: 30% -11%;
   background-size: 24%;
@@ -756,19 +756,19 @@ tr .td_5 {
   opacity: 0.6;
 }
 .info_me3 .td_5 {
-  background-image: url(../../design_layout/layout_png_1.png);
+  background-image: url(../design_layout/layout_png_1.png);
   background-repeat: no-repeat;
   background-size: 58% 56%;
   background-position: -9% 127%;
 }
 .info_me3 .td_3 {
-  background-image: url(../../design_layout/design_img1-removebg-preview.png);
+  background-image: url(../design_layout/design_img1-removebg-preview.png);
   background-repeat: no-repeat;
   background-size: 67% 100%;
   background-position: 100%;
 }
 .info_me3 .td_4 {
-  background-image: url(../../design_layout/layout_png_4.png);
+  background-image: url(../design_layout/layout_png_4.png);
   background-repeat: no-repeat;
   background-size: 94% 50%;
   background-position: -10% 104%;
@@ -833,11 +833,14 @@ tr .td_5 {
       rgba(255, 255, 255, 0.814),
       rgba(255, 255, 255, 0)
     ),
-    url(../../design_layout/layout3.jpg);
+    url(../design_layout/layout3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
   background-position: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .div_info_me4 .title {
   display: flex;
@@ -856,14 +859,14 @@ tr .td_5 {
 }
 .product_best_card:nth-child(1),
 .product_best_card:nth-child(3) {
-  margin-top: 5vw;
+  margin-top: 4vw;
 }
 /*  */
 .product_best_card {
   width: 20vw;
   height: 28vw;
   position: relative;
-  background-image: url("../../design_layout/layout1.jpg");
+  background-image: url("../design_layout/layout1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
@@ -947,7 +950,7 @@ tr .td_5 {
   border-radius: 20%;
   bottom: -10%;
   z-index: 2;
-  background-image: url("../../design_layout/Broken\ Hearts.jpg");
+  background-image: url("../design_layout/Broken\ Hearts.jpg");
   -webkit-animation: bg-pan-right 3s infinite alternate both;
   animation: bg-pan-right 3s infinite alternate both;
   transition: 1s;
@@ -977,7 +980,7 @@ tr .td_5 {
   justify-content: center;
   align-items: center;
   background-color: rgba(222, 206, 206, 0.138);
-  background-image: url("../../design_layout/light_design_img.png");
+  background-image: url("../design_layout/light_design_img.png");
   background-repeat: no-repeat;
   background-size: 20%;
   background-position: 100% 0%;
@@ -1070,14 +1073,14 @@ tr .td_5 {
         rgba(255, 255, 255, 0.595),
         rgba(255, 255, 255, 0.268)
       ),
-      url("../../design_layout/content2_1img.jpg"),
+      url("../design_layout/content2_1img.jpg"),
       linear-gradient(
         to bottom,
         rgba(255, 255, 255, 0.341),
         rgba(255, 255, 255, 0.268)
       ),
-      url("../../design_layout/content2_2img.jpg"),
-      url("../../design_layout/layout_png_3.png");
+      url("../design_layout/content2_2img.jpg"),
+      url("../design_layout/layout_png_3.png");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 45% 65vw, 45% 65vw, 40% 60vw, 40% 60vw, 35% 30%;
     background-position: 15vw 10%, 15vw 10%, 45vw 70%, 45vw 70%, 0% 110%;
@@ -1132,8 +1135,17 @@ tr .td_5 {
   .product_best_card:nth-child(3) {
     margin-top: 2vw;
   }
+  /*  */
   .mySwiper {
     width: 100% !important;
+  }
+  .div_info_me5,
+  .div_info_me4,
+  .div_info_me3,
+  .div_info_me2,
+  .info_me3,
+  .swiper {
+    height: 50vw !important;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -1153,17 +1165,21 @@ tr .td_5 {
 
   .div_design_1 {
     height: 150vh;
-    background-image: url("../../design_layout/deisgn_img1.jpg");
+    background-image: url("../design_layout/deisgn_img1.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
-}
+  }
   /*  */
   .div_design_2 {
     top: 35%;
-    left: 10vw;
-    gap: 30px;
-    height: 80vw;
+    left: 10%;
+    gap: unset;
+    width: 100%;
+    row-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 90vw;
     overflow-y: scroll;
   }
   .div_design_2 .card {
@@ -1188,8 +1204,27 @@ tr .td_5 {
     background-color: rgba(255, 255, 255, 0.39);
   }
   /*  */
+  .Content3 {
+    margin-top: 15%;
+  }
   .product_best_card:nth-child(1),
   .product_best_card:nth-child(3) {
-    margin-top: 0;
+    margin-top: 2%;
+  }
+  /*  */
+  .div_info_me5,
+  .div_info_me4,
+  .div_info_me3,
+  .div_info_me2,
+  .info_me3,
+  .swiper {
+    height: 67vw !important;
+  }
+  .product_best_card {
+    width: 25vw;
+    height: 35vw;
+  }
+  .div_design_2_4 .btn_letgo i {
+    font-size: unset;
   }
 }
