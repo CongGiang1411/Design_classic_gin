@@ -1155,9 +1155,9 @@ tr .td_5 {
     height: 150vh;
     background-image: url("../../design_layout/deisgn_img1.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
-  }
+}
   /*  */
   .div_design_2 {
     top: 35%;
