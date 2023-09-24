@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- link bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- link cdn font awesome -->
+    <script
+      src="https://kit.fontawesome.com/98d78f090f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- favicon -->
+    <link rel="stylesheet" href="../design_layout/favicon.ico" />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="../design/css/base.css" />
+    <link rel="stylesheet" href="../design/css/nav.css" />
+    <link rel="stylesheet" href="../design/css/Products.css" />
+
+    <title>Classic Gin</title>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body id="nav_top">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container container_nav">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span><i class="fa-solid fa-sliders"></i></span>
+        </button>
+        <a class="navbar-brand" href="#"
+          ><img
+            class="nav_brands"
+            src="../design_layout/clock_design_img_png.png"
+            alt="brands"
+        /></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../design/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../design/product.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link icon_nav_shop"
+                href="../design/cart_product.html"
+              >
+                <i class="fa-solid fa-cart-shopping"></i
+                ><span
+                  class="position-absolute top-0 start-100 translate-middle badge"
+                  style="font-size: 12px; color: black"
+                >
+                  99+
+                </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled total_nav_price"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Total price: <span>100.000.000 vnd</span></a
+              >
+            </li>
+          </ul>
+          <div class="d-flex g-lg-2">
+            <a href="" class="navbar-text"
+              >Welcome Guest<img
+                class="nav_avatar"
+                src="../design_layout/clock_design_img_png.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="percent_web">
+        <div class="percent_nav"></div>
+      </div>
+    </nav>
+    <header class="container-fluid header_products">
+      <div class="title_header">
+        <p class="focus-in-contract">PRODUCTS</p>
+      </div>
+      <div class="scroll_svg_header">
+        <svg
+          height="42.427"
+          viewBox="0 0 40.898 42.427"
+          width="40.898"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            data-name="Group 38"
+            id="Group_38"
+            transform="translate(-167.612 -659.514)"
+          >
+            <path
+              class="cls-1"
+              d="M-16.718-1.648a.773.773,0,0,0-.3-.65,3.569,3.569,0,0,0-1.07-.461,5.167,5.167,0,0,1-1.23-.519,1.642,1.642,0,0,1-.875-1.433,1.559,1.559,0,0,1,.631-1.274,2.552,2.552,0,0,1,1.637-.5,2.765,2.765,0,0,1,1.191.246,1.955,1.955,0,0,1,.822.7,1.8,1.8,0,0,1,.3,1.009h-1.107a1,1,0,0,0-.314-.784,1.3,1.3,0,0,0-.9-.283,1.354,1.354,0,0,0-.846.233.776.776,0,0,0-.3.65.7.7,0,0,0,.325.587,3.746,3.746,0,0,0,1.072.457,4.932,4.932,0,0,1,1.2.505,1.908,1.908,0,0,1,.664.65,1.694,1.694,0,0,1,.211.859,1.523,1.523,0,0,1-.613,1.272,2.659,2.659,0,0,1-1.663.472,3.126,3.126,0,0,1-1.277-.257,2.144,2.144,0,0,1-.905-.71,1.769,1.769,0,0,1-.323-1.055h1.112a1.035,1.035,0,0,0,.36.844,1.578,1.578,0,0,0,1.033.3,1.371,1.371,0,0,0,.872-.235A.759.759,0,0,0-16.718-1.648Zm8.68-.435a2.31,2.31,0,0,1-.756,1.6,2.577,2.577,0,0,1-1.753.573,2.5,2.5,0,0,1-1.347-.363,2.38,2.38,0,0,1-.9-1.031,3.719,3.719,0,0,1-.33-1.551v-.6a3.746,3.746,0,0,1,.321-1.6,2.418,2.418,0,0,1,.921-1.063,2.568,2.568,0,0,1,1.386-.374,2.467,2.467,0,0,1,1.705.576,2.4,2.4,0,0,1,.751,1.626H-9.146a1.581,1.581,0,0,0-.4-1,1.329,1.329,0,0,0-.947-.305,1.3,1.3,0,0,0-1.114.53,2.645,2.645,0,0,0-.4,1.553v.567a2.806,2.806,0,0,0,.371,1.582,1.233,1.233,0,0,0,1.088.545A1.437,1.437,0,0,0-9.563-1.1a1.535,1.535,0,0,0,.417-.98Zm5.054-.382H-4.223V0H-5.335V-6.4h2.25a2.619,2.619,0,0,1,1.709.5,1.756,1.756,0,0,1,.6,1.437,1.8,1.8,0,0,1-.31,1.074,1.971,1.971,0,0,1-.864.666L-.51-.057V0H-1.7Zm-1.239-.892h1.143A1.271,1.271,0,0,0-2.2-3.641a.988.988,0,0,0,.316-.776,1.052,1.052,0,0,0-.292-.8A1.241,1.241,0,0,0-3.05-5.5H-4.223ZM7.1-3.032a3.926,3.926,0,0,1-.325,1.65,2.459,2.459,0,0,1-.929,1.09,2.556,2.556,0,0,1-1.391.38,2.563,2.563,0,0,1-1.386-.38,2.5,2.5,0,0,1-.94-1.083A3.8,3.8,0,0,1,1.789-3v-.36A3.892,3.892,0,0,1,2.121-5.01a2.494,2.494,0,0,1,.936-1.1,2.548,2.548,0,0,1,1.386-.38,2.571,2.571,0,0,1,1.386.376A2.462,2.462,0,0,1,6.763-5.03,3.884,3.884,0,0,1,7.1-3.388ZM5.986-3.366A2.8,2.8,0,0,0,5.584-5a1.316,1.316,0,0,0-1.14-.567A1.312,1.312,0,0,0,3.316-5,2.743,2.743,0,0,0,2.9-3.4v.369A2.776,2.776,0,0,0,3.312-1.4a1.323,1.323,0,0,0,1.14.576,1.308,1.308,0,0,0,1.136-.562,2.836,2.836,0,0,0,.4-1.644ZM11.027-.888h2.9V0H9.915V-6.4h1.112Zm6.579,0h2.9V0H16.494V-6.4h1.112Z"
+              data-name="Path 270"
+              id="Path_270"
+              transform="translate(188 666)"
+            ></path>
+            <path
+              class="cls-2"
+              d="M25.754,11.325c-.8-.813.146-1.857.467-2.535a9.36,9.36,0,0,1,.7-1.383,3.28,3.28,0,0,0,.5-1.142,15.726,15.726,0,0,1-3.338,1.054,29.13,29.13,0,0,1-4.761,0,36.724,36.724,0,0,1-4.1-.518c-1.946-.311-3.891-.639-5.845-.853A31.571,31.571,0,0,0,6.06,5.918c-.7,0-1.392-.048-2.085,0a26.532,26.532,0,0,0-3.08.347c-.843.16-1.029-.215-.81-1.336,1.641-.153,3.32-.3,4.994-.468a17.645,17.645,0,0,1,2.334-.253c1.218.045,2.432.238,3.647.376.278.033.552.113.829.153,2.254.31,4.512.576,6.76.935a13.6,13.6,0,0,0,6.887-.334,3.351,3.351,0,0,0,.588-.415c-.393-.236-.455-1.432-.588-1.651-.72-1.181-.72-1.458-.72-3.237.975-.271,1.447.985,2.11,2.056.184.3.759,1,.864,1.181.551.935,1.417,1.735,1.417,2.4a6.625,6.625,0,0,1-1.094,3.22c-1.188,1.923-1.188,1.624-1.536,1.923Z"
+              id="handwritten-arrow-dark-next"
+              transform="translate(193.325 672.734) rotate(90)"
+            >
+              .
+            </path>
+          </g>
+        </svg>
+      </div>
+    </header>
+    <section class="section_products">
+      <div class="row div_product_row">
+        <!-- 1 -->
+        <div class="div_product col-md-3" id="product1">
+          <div class="card_product_brands">
+            <img
+              src="../design_layout/icon-brands/logo_chrome_hearts-removebg-preview.png"
+              alt=""
+            />
+          </div>
+          <a href="../design/view_product.html">
+            <div class="card_product_img">
+              <img
+                class="img_pro_1"
+                src="../img_products/chrome_heart/chrome_heart_ring_4-removebg-preview.png"
+                alt=""
+              />
+              <img
+                class="img_pro_2"
+                src="../img_products/chrome_heart/chrome_heart_ring_4.1jpg-removebg-preview.png"
+                alt=""
+              />
+            </div>
+          </a>
+          <div class="card_product_info">
+            <h2>Chrome heart Fucking ring</h2>
+            <p>24.000.000 vnđ</p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="div_product col-md-3">
+          <div class="card_product_brands">
+            <img
+              src="../design_layout/icon-brands/cartier-logo-2-removebg-preview.png"
+              alt=""
+            />
+          </div>
+          <a href="#">
+            <div class="card_product_img">
+              <img
+                class="img_pro_1"
+                src="../img_products/cartier/carties_ring_3_png-removebg-preview.png"
+                alt=""
+              />
+              <img
+                class="img_pro_2"
+                src="../img_products/cartier/cartier_3.3-removebg-preview.png"
+                alt=""
+              />
+            </div>
+          </a>
+          <div class="card_product_info">
+            <h2>Brilliant Love Diamond Wedding Band</h2>
+            <p>20.000.000 vnđ</p>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="div_product col-md-3">
+          <div class="card_product_brands">
+            <img
+              src="../design_layout/icon-brands/harry-winston-log-removebg-preview.png"
+              alt=""
+            />
+          </div>
+          <a href="#">
+            <div class="card_product_img">
+              <img
+                class="img_pro_1"
+                src="../img_products/harrywinston/harrywinston_2-removebg-preview.png"
+                alt=""
+              />
+              <img
+                class="img_pro_2"
+                src="../img_products/harrywinston/harrywinston_2.2-removebg-preview.png"
+                alt=""
+              />
+            </div>
+          </a>
+          <div class="card_product_info">
+            <h2>harrywinston bling bling</h2>
+            <p>21.000.000 vnđ</p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="div_product col-md-3">
+          <div class="card_product_brands">
+            <img
+              src="../design_layout/icon-brands/Tiffany-Co-logo-removebg-preview.png"
+              alt=""
+            />
+          </div>
+          <a href="#">
+            <div class="card_product_img">
+              <img
+                class="img_pro_1"
+                src="../img_products/tiffany/tiffany_4-removebg-preview.png"
+                alt=""
+              />
+              <img
+                class="img_pro_2"
+                src="../img_products/tiffany/tiffany_4.4-removebg-preview.png"
+                alt=""
+              />
+            </div>
+          </a>
+          <div class="card_product_info">
+            <h2>harrywinston bling bling</h2>
+            <p>21.000.000 vnđ</p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="div_product col-md-3">
+          <div class="card_product_brands">
+            <img
+              src="../design_layout/icon-brands/Tiffany-Co-logo-removebg-preview.png"
+              alt=""
+            />
+          </div>
+          <a href="#">
+            <div class="card_product_img">
+              <img
+                class="img_pro_1"
+                src="../img_products/tiffany/tiffany-3.3-removebg-preview.png"
+                alt=""
+              />
+              <img
+                class="img_pro_2"
+                src="../img_products/tiffany/tiffany-3-removebg-preview.png"
+                alt=""
+              />
+            </div>
+          </a>
+          <div class="card_product_info">
+            <h2>harrywinston bling bling</h2>
+            <p>21.000.000 vnđ</p>
+          </div>
+        </div>
+      </div>
+      <nav aria-label="breadcrumb" class="nav_pagination">
+        <ol class="breadcrumb nav_pagination_bread">
+          <li class="breadcrumb-item">
+            <a class="page_item page_active" href="#">1</a>
+          </li>
+          <li class="breadcrumb-item"><a class="page_item" href="#">2</a></li>
+          <li class="breadcrumb-item"><a class="page_item" href="#">3</a></li>
+          <li class="breadcrumb-item"><a class="page_item" href="#">4</a></li>
+          <li class="breadcrumb-item"><a class="page_item" href="#">5</a></li>
+        </ol>
+      </nav>
+      <div class="div_setting div_setting_hide">
+        <button
+          class="btn btn_setting"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight"
+        >
+          <i class="fa-solid fa-sliders"></i>
+        </button>
+
+        <div
+          class="offcanvas offcanvas-end div_offcanvas"
+          tabindex="-1"
+          id="offcanvasRight"
+          aria-labelledby="offcanvasRightLabel"
+        >
+          <div class="offcanvas-header div_offcanvas_header">
+            <h5 id="offcanvasRightLabel">Product options</h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <form class="d-flex form_search_setting" method="get">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-setting" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Brands
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <ul class="btn-group-vertical ul_accordion_body">
+                      <li class="btn">
+                        <a href="../design/product.html">Chrome heart</a>
+                      </li>
+                      <li class="btn">
+                        <a href="../design/product.html">Harry winston</a>
+                      </li>
+                      <li class="btn">
+                        <a href="../design/product.html">Tiffany Co</a>
+                      </li>
+                      <li class="btn">
+                        <a href="../design/product.html">Carties</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Categories
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <ul class="btn-group-vertical ul_accordion_body">
+                      <li class="btn">
+                        <a href="../design/product.html">Chrome heart</a>
+                      </li>
+                      <li class="btn">
+                        <a href="../design/product.html">Harry winston</a>
+                      </li>
+                      <li class="btn">
+                        <a href="../design/product.html">Tiffany Co</a>
+                      </li>
+                      <li class="btn">
+                        <a href="../design/product.html">Carties</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Collection
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <ul class="btn-group-vertical ul_accordion_body">
+                      <li class="btn">
+                        <a href="../design/product.html">Chrome heart</a>
+                      </li>
+                      <li class="btn">
+                        <a href="../design/product.html">Harry winston</a>
+                      </li>
+                      <li class="btn">
+                        <a href="../design/product.html">Tiffany Co</a>
+                      </li>
+                      <li class="btn">
+                        <a href="../design/product.html">Carties</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="btn_all_products">
+                <a href="" class="btn btn-outline-dark">All products</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <!--  -->
+
+    <div class="back_to_top" id="back_to_top">
+      <a href="#nav_top"><i class="fa-solid fa-up-long"></i></a>
+    </div>
+    <footer>
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <div class="footer row">
+        <div class="col-md-4 div_footer1">
+          <img src="./admin_area/logo_classic_gin.png" alt="" />
+        </div>
+        <div class="col-md-4 div_center_footer">
+          <div class="icon_footer">
+            <a href="https://www.facebook.com/gin.max.39"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/CongGiang1411"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="#"><i class="fa-regular fa-envelope"></i></a>
+          </div>
+          <div class="btn_footer">
+            <a href="./index.php" class="btn">Home</a>
+            <a href="./index.php#learn_about" class="btn">About</a>
+            <a href="./cart_product.php" class="btn">Cart</a>
+            <a href="https://www.facebook.com/gin.max.39" class="btn"
+              >Contact</a
+            >
+          </div>
+          <div class="year_footer">
+            &copy; <span id="year"> </span
+            ><span> -Classic Gin | Nguyễn Công Giang.</span>
+          </div>
+        </div>
+        <div class="col-md-4 div_footer2">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1861.5014011027815!2d105.77219821150017!3d21.072550296694985!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345507d979ee69%3A0xdc57a04b62c70576!2zQ-G6p3UgUGjhu5EgVmnDqm4!5e0!3m2!1svi!2s!4v1695389990136!5m2!1svi!2s"
+            width="80%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </footer>
+    <!-- Swiper JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
+
+    <script src="../design/js/nav.js"></script>
+    <script src="../design/js/products.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

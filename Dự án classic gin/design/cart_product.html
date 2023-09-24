@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- link bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- link cdn font awesome -->
+    <script
+      src="https://kit.fontawesome.com/98d78f090f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- favicon -->
+    <link rel="stylesheet" href="../design_layout/favicon.ico" />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="../design/css/base.css" />
+    <link rel="stylesheet" href="../design/css/nav.css" />
+    <link rel="stylesheet" href="../design/css/cart_Products.css" />
+
+    <title>Classic Gin</title>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body id="nav_top">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container container_nav">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span><i class="fa-solid fa-sliders"></i></span>
+        </button>
+        <a class="navbar-brand" href="#"
+          ><img
+            class="nav_brands"
+            src="../design_layout/clock_design_img_png.png"
+            alt="brands"
+        /></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../design/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../design/product.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link icon_nav_shop"
+                href="../design/cart_product.html"
+              >
+                <i class="fa-solid fa-cart-shopping"></i
+                ><span
+                  class="position-absolute top-0 start-100 translate-middle badge"
+                  style="font-size: 12px; color: black"
+                >
+                  99+
+                </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled total_nav_price"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Total price: <span>100.000.000 vnd</span></a
+              >
+            </li>
+          </ul>
+          <div class="d-flex g-lg-2">
+            <a href="" class="navbar-text"
+              >Welcome Guest<img
+                class="nav_avatar"
+                src="../design_layout/clock_design_img_png.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="percent_web">
+        <div class="percent_nav"></div>
+      </div>
+    </nav>
+    <!--  -->
+    <!--  -->
+    <section>
+      <div class="container">
+        <div class="title_cart">
+          <h4
+            style="
+              color: rgb(137, 180, 235);
+              opacity: 0.5;
+              letter-spacing: 5px;
+              user-select: none;
+            "
+          >
+            CART
+          </h4>
+        </div>
+        <div class="div_cart_big row">
+          <div class="col-md-8 div_cart_product">
+            <div class="div_cart_show">
+              <!-- 1 -->
+              <div class="div_cart">
+                <div class="cart_info">
+                  <p>Chrome heart ring</p>
+                  <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="cart">
+                  <img
+                    class="cart_img"
+                    src="../img_products/chrome_heart/chrome_heart_ring_1-removebg-preview.png"
+                    alt=""
+                  />
+                  <div class="cart_pay">
+                    <p>20.000.000vnd</p>
+                    <form action="#">
+                      <input type="number" value="1" min="0" max="2" />
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="div_cart">
+                <div class="cart_info">
+                  <p>Cartier ring</p>
+                  <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="cart">
+                  <img
+                    class="cart_img"
+                    src="../img_products/cartier/carties_ring_1-removebg-preview.png"
+                    alt=""
+                  />
+                  <div class="cart_pay">
+                    <p>26.000.000vnd</p>
+                    <form action="#">
+                      <input type="number" value="1" min="0" max="2" />
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <!-- 3 -->
+              <div class="div_cart">
+                <div class="cart_info">
+                  <p>Harrywinston ring</p>
+                  <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="cart">
+                  <img
+                    class="cart_img"
+                    src="../img_products/harrywinston/harrywinston_1-removebg-preview.png"
+                    alt=""
+                  />
+                  <div class="cart_pay">
+                    <p>40.000.000vnd</p>
+                    <form action="#">
+                      <input type="number" value="1" min="0" max="2" />
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 div_cart_payload">
+            <div class="pay">
+              <p>Subtotal</p>
+              <p>100.000.000vnd</p>
+            </div>
+            <div class="pay">
+              <p>Shipping</p>
+              <p>100.000vnd</p>
+            </div>
+            <div class="pay">
+              <p>ESTIMATED TOTAL</p>
+              <p>100.100.000vnd</p>
+            </div>
+            <a
+              data-bs-toggle="modal"
+              data-bs-target="#Modal_payload"
+              class="btn_pay btn btn-outline-dark"
+              ><span>CHECKOUT</span></a
+            >
+            <div class="tbao_pay">
+              <p>
+                By clicking Checkout, you will be redirected to the eShopWorld
+                checkout page where payment will be taken and your order
+                fulfilled by eShopWorld, Chrome Hearts’ preferred partner for
+                international sales.
+              </p>
+            </div>
+            <a href="../design/product.html" class="btn_conti btn"
+              ><p>Continue shopping</p></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <div
+      class="modal fade"
+      id="Modal_payload"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      aria-colcount="modal_payload"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Payment Method</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <a
+              href="#"
+              class="btn btn-outline-dark btn_payload"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="You can pay online right now"
+              ><span>Pay online</span></a
+            >
+
+            <a
+              href="#"
+              class="btn btn-outline-dark btn_payload"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="you will create the order and pay later"
+              ><span>Pay offline</span></a
+            >
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="back_to_top" id="back_to_top">
+      <a href="#nav_top"><i class="fa-solid fa-up-long"></i></a>
+    </div>
+
+    <footer>
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <div class="footer row">
+        <div class="col-md-4 div_footer1">
+          <img src="./admin_area/logo_classic_gin.png" alt="" />
+        </div>
+        <div class="col-md-4 div_center_footer">
+          <div class="icon_footer">
+            <a href="https://www.facebook.com/gin.max.39"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/CongGiang1411"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="#"><i class="fa-regular fa-envelope"></i></a>
+          </div>
+          <div class="btn_footer">
+            <a href="./index.php" class="btn">Home</a>
+            <a href="./index.php#learn_about" class="btn">About</a>
+            <a href="./cart_product.php" class="btn">Cart</a>
+            <a href="https://www.facebook.com/gin.max.39" class="btn"
+              >Contact</a
+            >
+          </div>
+          <div class="year_footer">
+            &copy; <span id="year"> </span
+            ><span> -Classic Gin | Nguyễn Công Giang.</span>
+          </div>
+        </div>
+        <div class="col-md-4 div_footer2">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1861.5014011027815!2d105.77219821150017!3d21.072550296694985!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345507d979ee69%3A0xdc57a04b62c70576!2zQ-G6p3UgUGjhu5EgVmnDqm4!5e0!3m2!1svi!2s!4v1695389990136!5m2!1svi!2s"
+            width="80%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </footer>
+    <!-- Swiper JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
+
+    <script src="../design/js/nav.js"></script>
+    <script src="../design/js/cart_products.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

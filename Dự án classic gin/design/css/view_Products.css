@@ -1,0 +1,150 @@
+* {
+  user-select: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url(../../design_layout/layout_product2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+section {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+.div_product {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.icon_brands_products {
+  width: 25%;
+  height: 10vw;
+  display: block;
+  margin: 0 auto;
+}
+.icon_brands_products img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.li_carousel {
+  width: 30px !important;
+  height: 30px !important;
+  display: unset;
+  background-color: transparent !important;
+  background-image: url(../../design_layout/carousel-bullet.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.li_carousel.active {
+  background-image: url(../../design_layout/carousel-active-bullet.png);
+}
+.carousel-item * {
+  width: 50vh;
+  height: 50vh;
+}
+.carousel-item img {
+  display: block;
+  margin: 0 auto;
+}
+.carousel-control-prev {
+  margin: 0;
+  padding: 0;
+}
+.carousel-control-prev img,
+.carousel-control-next img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+.carousel-control-next {
+  transform: translateX(-50px);
+}
+.carousel-control-prev {
+  transform: translateX(50px);
+}
+.info_products {
+  margin-top: 5%;
+}
+.info_products * {
+  font-family: "Libre Baskerville", serif;
+  margin-left: 20px;
+}
+.info_products .detail_products {
+  display: block;
+  width: 80%;
+  opacity: 0.6;
+  font-size: small;
+}
+.price_products {
+  color: rgb(114, 39, 39);
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+.add_products {
+  padding: 10px 60px;
+  background-image: url(../../design_layout/cross-stroke_2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.2s;
+}
+
+.add_products:hover {
+  background-color: rgba(245, 245, 220, 0.241);
+  transition: 0.2s;
+  font-weight: 600;
+}
+.turn_back {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  font-size: 30px;
+  animation: turnback 1s infinite alternate;
+}
+.turn_back:hover {
+  cursor: pointer;
+}
+.turn_back:hover::before {
+  content: "turn back";
+  position: absolute;
+  top: 15%;
+  left: 120%;
+  font-size: 15px;
+  width: 70px;
+  user-select: none;
+}
+
+.zoom {
+  opacity: 0;
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(62, 55, 55, 0.833);
+  /* background-image: url(../../img_products/chrome_heart/chrome_heart_ring_1-removebg-preview.png); */
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+  pointer-events: none;
+  /* transition: ; */
+}
+
+@keyframes turnback {
+  form {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-10px);
+  }
+}

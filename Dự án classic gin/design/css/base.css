@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Libre+Baskerville&display=swap");
+/* font-family: 'Cabin', sans-serif;
+font-family: 'Libre Baskerville', serif; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Cabin", sans-serif;
+  scroll-behavior: smooth;
+  background: transparent;
+}
+body {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+a,
+h1 {
+  font-family: "Libre Baskerville", serif;
+  color: #333333 !important;
+  text-decoration: none;
+}
+a:hover {
+  color: #000000 !important;
+}
+section * {
+  background: transparent;
+}
+.container-fluid {
+  padding: 0 !important;
+}

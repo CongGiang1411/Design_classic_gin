@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+
+    <!-- link bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- link cdn font awesome -->
+    <script
+      src="https://kit.fontawesome.com/98d78f090f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- favicon -->
+    <link rel="stylesheet" href="../design_layout/favicon.ico" />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="../design/css/base.css" />
+    <link rel="stylesheet" href="../design/css/nav.css" />
+    <link rel="stylesheet" href="../design/css/Home.css" />
+
+    <title>Classic Gin</title>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body onload="typeWriter()" id="nav_top">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container container_nav">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span><i class="fa-solid fa-sliders"></i></span>
+        </button>
+        <a class="navbar-brand" href="#"
+          ><img
+            class="nav_brands"
+            src="../design_layout/clock_design_img_png.png"
+            alt="brands"
+        /></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../design/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../design/product.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link icon_nav_shop"
+                href="../design/cart_product.html"
+              >
+                <i class="fa-solid fa-cart-shopping"></i
+                ><span
+                  class="position-absolute top-0 start-100 translate-middle badge"
+                  style="font-size: 12px; color: black"
+                >
+                  99+
+                </span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled total_nav_price"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Total price: <span>100.000.000 vnd</span></a
+              >
+            </li>
+          </ul>
+          <div class="d-flex g-lg-2">
+            <a href="./profile.html" class="navbar-text"
+              >Welcome Guest<img
+                class="nav_avatar"
+                src="../design_layout/clock_design_img_png.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="percent_web">
+        <div class="percent_nav"></div>
+      </div>
+    </nav>
+    <header>
+      <div class="video_header container-fluid">
+        <video autoplay muted loop>
+          <source src="../design_layout/video_layout_light.mp4" />
+        </video>
+        <div class="title_header container-fluid">
+          <div class="title_header_show">
+            <h1 class="title_header_show_h1"></h1>
+            <p>Come to us, you can find the most satisfactory rings</p>
+            <div class="div_btn_header">
+              <a href="#" class="btn_header">Start shopping</a>
+              <a href="#learn_about" class="btn_header">Learn about us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <!-- Danh mục -->
+      <div class="container-fluid Content1">
+        <div class="div_design_1">
+          <div class="content_design_1">
+            <h1 class="position-relative">
+              E L E M E N T S<sup
+                class="position-absolute top-20 start-80 badge rounded-pill"
+                >B A S E</sup
+              >
+            </h1>
+            <h6 class="position-relative">
+              C O L L E C T I O N<sup class="position-absolute top-0 start-70"
+                >No.1</sup
+              >
+            </h6>
+            <h3>КАТЕГОРИЈА</h3>
+          </div>
+        </div>
+        <div class="div_design_2 row row-cols-1 row-cols-md-3">
+          <div class="card col">
+            <a href="#" class="card_1_layout">
+              <div class="card-header">
+                <img
+                  src="../design_layout/icon_mini/icon_img1.svg"
+                  alt="icon_1"
+                />
+                <h4>ВОДА</h4>
+              </div>
+              <div class="card-footer">
+                <p>ELEGANT</p>
+              </div>
+            </a>
+          </div>
+          <div class="card col">
+            <a href="#" class="card_2_layout">
+              <div class="card-header">
+                <img
+                  src="../design_layout/icon_mini/icon_img2.svg"
+                  alt="icon_1"
+                />
+                <h4>ОГОНЬ</h4>
+              </div>
+              <div class="card-footer">
+                <p>ALTERNATIVE</p>
+              </div>
+            </a>
+          </div>
+          <div class="card col">
+            <a href="#" class="card_3_layout">
+              <div class="card-header">
+                <img
+                  src="../design_layout/icon_mini/icon_img1.svg"
+                  alt="icon_1"
+                />
+                <h4>ВОЗДУХ</h4>
+              </div>
+              <div class="card-footer">
+                <p>SHINE</p>
+              </div>
+            </a>
+          </div>
+          <div class="card col">
+            <a href="#" class="card_4_layout">
+              <div class="card-header">
+                <img
+                  src="../design_layout/icon_mini/icon_img1.svg"
+                  alt="icon_1"
+                />
+                <h4>ЗЕМЛЯ</h4>
+              </div>
+              <div class="card-footer">
+                <p>METAL</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="div_design_3 start_onscroll">
+          <div>
+            <abbr title="Elegant"
+              ><img src="../design_layout/icon_mini/icon_img1.svg" alt=""
+            /></abbr>
+            <abbr title="Alternative"
+              ><img src="../design_layout/icon_mini/icon_img2.svg" alt=""
+            /></abbr>
+
+            <abbr title="Shine">
+              <img src="../design_layout/icon_mini/icon_img3.svg" alt="" />
+            </abbr>
+            <abbr title="Metal"
+              ><img src="../design_layout/icon_mini/icon_img4.svg" alt=""
+            /></abbr>
+          </div>
+          <div>
+            <p>
+              Elegant,alternative,shine,metal. Each genre gives viewers a
+              different level of emotions
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid Content2">
+        <div class="div_design_2_1 start_onscroll"></div>
+        <div class="div_design_2_2 edit_div_design">
+          <h3 class="start_onscroll title_div_design_2_2">
+            The most beautiful product
+          </h3>
+          <div class="card_product_design1">
+            <div class="card card_product1 start_onscroll">
+              <div class="card-img-top">
+                <a href="">
+                  <img
+                    src="../img_products/chrome_heart/chrome_heart_ring_1-removebg-preview.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <p class="card-title">Chrome heart</p>
+            </div>
+            <div class="card card_product1 start_onscroll">
+              <div class="card-img-top">
+                <a href="">
+                  <img
+                    src="../img_products/cartier/carties_ring_1-removebg-preview.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <p class="card-title">Carties</p>
+            </div>
+          </div>
+        </div>
+        <div class="div_design_2_3 edit_div_design">
+          <div class="card_product_design1">
+            <div class="card card_product2 start_onscroll">
+              <div class="card-img-top">
+                <a href="">
+                  <img
+                    src="../img_products/harrywinston/harrywinston_1-removebg-preview.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <p class="card-title">Harrywinston</p>
+            </div>
+            <div class="card card_product2 start_onscroll">
+              <div class="card-img-top">
+                <a href="">
+                  <img
+                    src="../img_products/tiffany/tiffany-3-removebg-preview.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <p class="card-title">Tiffany</p>
+            </div>
+          </div>
+        </div>
+        <div class="div_design_2_4 start_onscroll">
+          <h2>Do you want to see more products of the store?</h2>
+          <a href="" class="btn btn-outline-dark btn_letgo">
+            <span>Let's goooo </span>
+            <i class="fa-solid fa-dragon"></i
+          ></a>
+        </div>
+      </div>
+      <div class="container-fluid Content3" id="learn_about">
+        <div class="container row">
+          <div class="col-md-12 div_info_me1 start_onscroll">
+            <h1>
+              <span>What is</span>
+              CLASSIC GIN
+              <span class="badge_info"> NEWS </span>
+            </h1>
+          </div>
+          <div class="div_swiper col-md-12 container-fluid start_onscroll">
+            <div class="swiper mySwiper col-md-12">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <!--  -->
+                  <div class="div_info_me2">
+                    <div class="info_me2_title">
+                      <p>
+                        Created by an individual with the goal of helping people
+                        find the right ring for them
+                      </p>
+                      <p>Collaborate with fashion brands:</p>
+                    </div>
+                    <div class="info_me2_img_brands">
+                      <a href="#">
+                        <img
+                          src="../design_layout/icon-brands/logo_chrome_hearts-removebg-preview.png"
+                          alt=""
+                        />
+                      </a>
+                      <a href="#">
+                        <img
+                          src="../design_layout/icon-brands/cartier-logo-2-removebg-preview.png"
+                          alt=""
+                        />
+                      </a>
+                      <a href="#">
+                        <img
+                          src="../design_layout/icon-brands/harry-winston-log-removebg-preview.png"
+                          alt=""
+                        />
+                      </a>
+                      <a href="#">
+                        <img
+                          src="../design_layout/icon-brands/Tiffany-Co-logo-removebg-preview.png"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <!-- <img src="https://swiperjs.com/demos/images/nature-2.jpg" /> -->
+                  <div class="div_info_me3">
+                    <table class="info_me3">
+                      <tr>
+                        <td class="td_1">
+                          <div class="trick_me0">
+                            <p style="text-align: start; font-weight: 600">
+                              Founder classic gin:
+                            </p>
+                            <p style="text-align: end">Nguyễn Công Giang</p>
+                          </div>
+                          <p
+                            class="trick_me"
+                            style="
+                              position: relative;
+                              padding: 1vw;
+                              font-size: 1.2vw;
+                              letter-spacing: 0.2vw;
+                              word-spacing: 0.3vw;
+                            "
+                          >
+                            <i
+                              >"Let's create a world filled with splendor and
+                              sparkle"</i
+                            >
+                          </p>
+                        </td>
+                        <td rowspan="2" class="td_2">
+                          <div class="card_avatar">
+                            <div class="card_hover">
+                              <div class="card_font">
+                                <img
+                                  src="../design_layout/card_avatar_font.jpg"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="card_back">
+                                <img
+                                  src="https://scontent.fhan4-3.fna.fbcdn.net/v/t39.30808-6/340972073_1316570705563912_5497401532403625181_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5614bc&_nc_ohc=k7B6h6VLEQ8AX-bAafS&_nc_ht=scontent.fhan4-3.fna&oh=00_AfBiIBC7khC1Ef5YpD4r4IY8HMSQYzn5ymgJrgUMcLHYmg&oe=64FB1B31"
+                                  alt=""
+                                />
+                                <p class="title_card_back">Founder</p>
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                        <td class="td_3"></td>
+                      </tr>
+                      <tr>
+                        <td class="td_4"></td>
+                        <td class="td_5">
+                          <p
+                            class="trick_me2"
+                            style="
+                              font-size: 1.5vw;
+                              text-align: end;
+                              padding: 0px 10px;
+                            "
+                          >
+                            Contact admin:
+                          </p>
+                          <div
+                            class="contact_icon"
+                            style="
+                              font-size: 2vw;
+                              display: flex;
+                              justify-content: space-evenly;
+                              padding-bottom: 20%;
+                            "
+                          >
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-github"></i></a>
+                            <a href=""><i class="fa-solid fa-envelope"></i></a>
+                            <a href=""
+                              ><i class="fa-solid fa-phone-volume"></i
+                            ></a>
+                          </div>
+                        </td>
+                      </tr>
+
+                      <!-- 
+                       -->
+                    </table>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <!-- <img src="https://swiperjs.com/demos/images/nature-3.jpg" /> -->
+                  <div class="div_info_me4">
+                    <div class="title">
+                      <h1>
+                        Our best products<span
+                          class="position-absolute badge top-0"
+                          style="color: rgba(0, 0, 0, 0.427); right: -12%"
+                          >¥</span
+                        >
+                      </h1>
+                    </div>
+                    <div class="div_product_best_card">
+                      <div class="product_best_card">
+                        <div class="div_best_card">
+                          <img
+                            class="img_product"
+                            src="../img_products/cartier/carties_ring_1-removebg-preview.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="div_best_card">
+                          <img
+                            src="../design_layout/icon-brands/cartier-logo-2-removebg-preview.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="div_best_card_title">
+                          <h1>
+                            make your
+                            <span style="color: #d9a7c7">choose</span> right now
+                          </h1>
+                          <div class="btn_choose">
+                            <a href="" class="btn"><span>add to cart</span></a>
+                            <a href="" class="btn"><span>view more</span></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product_best_card">
+                        <div class="div_best_card">
+                          <img
+                            class="img_product"
+                            src="../img_products/chrome_heart/chrome_heart_ring_1-removebg-preview.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="div_best_card">
+                          <img
+                            src="../design_layout/icon-brands/logo_chrome_hearts-removebg-preview.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="div_best_card_title">
+                          <h1>
+                            make your
+                            <span style="color: #d9a7c7">choose</span> right now
+                          </h1>
+                          <div class="btn_choose">
+                            <a href="" class="btn"><span>add to cart</span></a>
+                            <a href="" class="btn"><span>view more</span></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product_best_card">
+                        <div class="div_best_card">
+                          <img
+                            class="img_product"
+                            src="../img_products/harrywinston/harrywinston_2-removebg-preview.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="div_best_card">
+                          <img
+                            style="padding: 0 10px"
+                            src="../design_layout/icon-brands/harry-winston-log-removebg-preview.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="div_best_card_title">
+                          <h1>
+                            make your
+                            <span style="color: #d9a7c7">choose</span> right now
+                          </h1>
+                          <div class="btn_choose">
+                            <a href="" class="btn"><span>add to cart</span></a>
+                            <a href="" class="btn"><span>view more</span></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <!-- <img src="https://swiperjs.com/demos/images/nature-4.jpg" /> -->
+                  <div class="div_info_me5">
+                    <h1>COMING SOON</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="product_best_card">
+        <div class="div_best_card">
+          <img
+            src="../img_products/chrome_heart/chrome_heart_ring_1-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <div class="div_best_card">
+          <img
+            src="../design_layout/icon-brands/logo_chrome_hearts-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <div class="div_best_card_title">
+          <h1>
+            make your <span style="color: #d9a7c7">choose</span> right
+            now
+          </h1>
+          <div class="btn_choose">
+            <a href="" class="btn"><span>add to cart</span></a>
+            <a href="" class="btn"><span>view more</span></a>
+          </div>
+        </div>
+      </div> -->
+    </section>
+    <div class="back_to_top" id="back_to_top">
+      <a href="#nav_top"><i class="fa-solid fa-up-long"></i></a>
+    </div>
+    <footer>
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <div class="footer row">
+        <div class="col-md-4 div_footer1">
+          <img src="./admin_area/logo_classic_gin.png" alt="" />
+        </div>
+        <div class="col-md-4 div_center_footer">
+          <div class="icon_footer">
+            <a href="https://www.facebook.com/gin.max.39"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/CongGiang1411"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="#"><i class="fa-regular fa-envelope"></i></a>
+          </div>
+          <div class="btn_footer">
+            <a href="./index.php" class="btn">Home</a>
+            <a href="./index.php#learn_about" class="btn">About</a>
+            <a href="./cart_product.php" class="btn">Cart</a>
+            <a href="https://www.facebook.com/gin.max.39" class="btn"
+              >Contact</a
+            >
+          </div>
+          <div class="year_footer">
+            &copy; <span id="year"> </span
+            ><span> -Classic Gin | Nguyễn Công Giang.</span>
+          </div>
+        </div>
+        <div class="col-md-4 div_footer2">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1861.5014011027815!2d105.77219821150017!3d21.072550296694985!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345507d979ee69%3A0xdc57a04b62c70576!2zQ-G6p3UgUGjhu5EgVmnDqm4!5e0!3m2!1svi!2s!4v1695389990136!5m2!1svi!2s"
+            width="80%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      // var swiper = new Swiper(".mySwiper", {
+      //   effect: "cube",
+      //   grabCursor: true,
+      //   cubeEffect: {
+      //     shadow: true,
+      //     slideShadows: true,
+      //     shadowOffset: 20,
+      //     shadowScale: 0.94,
+      //   },
+      //   pagination: {
+      //     el: ".swiper-pagination",
+      //   },
+      // });
+    </script>
+
+    <script src="../design/js/nav.js"></script>
+    <script src="../design/js/home.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
